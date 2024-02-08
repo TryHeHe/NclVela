@@ -1,0 +1,30 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+a{
+    height: 5vw;
+    width: 400px;
+    font-size: 30px;
+    color: white;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    background: #7743db;
+    background: -webkit-linear-gradient(0deg, #7743db 0%, #3d30a2 50%, #b15eff 100%);
+    background: linear-gradient(0deg, #7743db 0%, #3d30a2 50%, #b15eff 100%);
+}
+
+a :hover{
+    cursor: pointer;
+}
